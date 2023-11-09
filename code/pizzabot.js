@@ -8,7 +8,7 @@ const pizzaPrice = 80;
 
 function displayMenu() {
   alert(
-    `Hey! Happy to serve your pizza.\n On our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`
+    `Hey! Happy to serve your pizza.\nOn our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`
   );
 }
 
@@ -36,7 +36,7 @@ function cookingTime(orderQuantity) {
 
 function orderPizza() {
   const orderName = prompt(
-    "Enter the name of the pizza you want to order today: (example: Name Pizza)"
+    "Enter the name of the pizza you want to order today:\n(example: Name Pizza)"
   );
 
   if (checkOrderName(orderName)) {
